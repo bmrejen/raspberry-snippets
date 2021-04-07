@@ -26,4 +26,4 @@ Careful, all CORS origins are allowed.
 
 ## Tell your browser to trust this CA
 
-Chrome -> Settings -> Manage certificates -> Import -> choose cert.pem (you might néed to rename it .crt)
+Chrome -> Settings -> Manage certificates -> Import -> choose cert.pem (you might need to rename it .crt)
