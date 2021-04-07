@@ -27,3 +27,12 @@ Careful, all CORS origins are allowed.
 ## Tell your browser to trust this CA
 
 Chrome -> Settings -> Manage certificates -> Import -> choose cert.pem (you might need to rename it .crt)
+
+
+## How to keep the process alive
+
+Instead of running `node app.js` you can use pm2
+
+```
+pm2 start app.js --watch
+```
